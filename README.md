@@ -1,1 +1,2 @@
-# inventory-manager
+# Flutter App
+Instructions coming soon.

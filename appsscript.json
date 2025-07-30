@@ -1,0 +1,20 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {},
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets.currentonly",
+    "https://www.googleapis.com/auth/script.container.ui"
+  ],
+  "runtimeVersion": "V8",
+  "addOns": {
+    "common": {
+      "name": "Inventory Manager",
+      "logoUrl": "https://example.com/icon.png",
+      "useLocaleFromApp": true,
+      "homepageTrigger": {
+        "runFunction": "showTeamDashboard"
+      }
+    }
+  }
+}
